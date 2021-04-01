@@ -38,7 +38,7 @@ $ npm install
 $ php artisan migrate
 ```
 
-## Listo ya podemos ejecutar nuestra APP.
+## Eecutar nuestra APP.
 
 ```
  $ php artisan serve
