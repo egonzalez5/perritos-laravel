@@ -21,7 +21,7 @@ $ cd perritos-laravel
  $ composer install
 ```
 
-## Modificamos el nombre del archivo **.env.example.** por **.env** y agregamos nuestras credenciales y craemos base de datos.
+## Modificamos el nombre del archivo **.env.example.** por **.env** y agregamos nuestras credenciales.
 
 ## Generamos APP_KEY con el siguiente comando.
 ```
