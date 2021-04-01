@@ -16,7 +16,7 @@ class PerritoController extends Controller
      */
     public function index()
     {
-        return Perrito::get();
+        return Perrito::orderBy('id', 'DESC')->get();
     }
 
     /**

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-center">Perritos</h1>
+        <h1 class="text-center">Perritos - Laravel</h1>
         <hr />
 
         <!-- Button to Open the Modal -->
@@ -113,7 +113,7 @@
             </div>
         </div>
 
-        <table class="table">
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th scope="col">Id</th>
@@ -133,8 +133,7 @@
                     <td>{{ fecha(perr.nacimiento)}}</td>
                     <td>
                         <button
-                            @click="
-                                modificar = true;
+                            @click="modificar = true;
                                 abrirModal(perr);
                             "
                             class="btn btn-warning"
