@@ -2,12 +2,6 @@
 
 Documentación https://laravel.com/docs/8.x
 
-## Instalación
-
-Pasos para instalar las dependencias
-
-1. Compouser https://getcomposer.org/download/
-2. Compouser https://getcomposer.org/doc/00-intro.md
 
 ## Clonamos el repositorio
 
@@ -44,7 +38,7 @@ $ npm install
 $ php artisan migrate
 ```
 
-## Listo ya podemos ejecutar nuestra API.
+## Listo ya podemos ejecutar nuestra APP.
 
 ```
  $ php artisan serve
