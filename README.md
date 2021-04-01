@@ -15,20 +15,20 @@ Documentación https://laravel.com/docs/8.x
 $ cd perritos-laravel
 ```
 
-## Ejecutamos el siguiente comando.
+## Ejecutamos el siguiente comando
 
 ```
  $ composer install
 ```
 
-## Modificamos el nombre del archivo **.env.example.** por **.env** y agregamos nuestras credenciales.
+## Modificamos el nombre del archivo **.env.example.** por **.env** y agregamos nuestras credenciales
 
-## Generamos APP_KEY.
+## Generamos APP_KEY
 ```
 $ php artisan key:generate
 ```
 
-## Descargamos dependencias de npm.
+## Descargamos dependencias de npm
 ```
 $ npm install
 ```
@@ -38,7 +38,7 @@ $ npm install
 $ php artisan migrate
 ```
 
-## Eecutar nuestra APP.
+## Eecutar nuestra APP
 
 ```
  $ php artisan serve
