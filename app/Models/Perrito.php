@@ -13,5 +13,6 @@ class Perrito extends Model
         'nombre',
         'color',
         'raza',
+        'nacimiento'
     ];
 }

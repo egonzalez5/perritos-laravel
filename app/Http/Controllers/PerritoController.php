@@ -27,11 +27,7 @@ class PerritoController extends Controller
      */
     public function store(PerritoRequest $request)
     {
-/*          $request->validate([
-            'nombre' => 'required|unique:perritos',
-            'color' => 'required',
-            'raza' => 'required',
-        ]);  */
+
         $perrito = new Perrito;
         $perrito->create($request->all());
     }
@@ -44,7 +40,7 @@ class PerritoController extends Controller
      */
     public function show(Perrito $perrito)
     {
-        return $articulo;
+        return $perrito;
     }
 
     /**
@@ -56,13 +52,6 @@ class PerritoController extends Controller
      */
     public function update(PerritoRequest $request, Perrito $perrito)
     {
-        /* $nombre = $perrito->nombre;
-
-        if ($request->nombre == $nombre) {
-            $request->request->remove('nombre');
-        } */
-        //Rule::unique('perritos', 'nombre')->ignore($perrito->id);
-        
 
         $perrito->update($request->all());
     }

@@ -8,6 +8,20 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 
+import Vue from 'vue';
+import VueSweetalert2 from'vue-sweetalert2';
+
+import moment from 'moment';
+
+
+import Toaster from 'v-toaster'
+import 'v-toaster/dist/v-toaster.css'
+
+
+Vue.use(Toaster, {timeout: 5000})
+Vue.use(VueSweetalert2);
+moment.locale('es'); 
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

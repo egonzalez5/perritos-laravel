@@ -18,6 +18,7 @@ class CreatePerritosTable extends Migration
             $table->string('nombre');
             $table->string('color');
             $table->string('raza');
+            $table->date('nacimiento');
             
             $table->timestamps();
         });
