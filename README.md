@@ -23,7 +23,7 @@ $ cd perritos-laravel
 
 ## Modificamos el nombre del archivo **.env.example.** por **.env** y agregamos nuestras credenciales.
 
-## Generamos APP_KEY con el siguiente comando.
+## Generamos APP_KEY.
 ```
 $ php artisan key:generate
 ```
