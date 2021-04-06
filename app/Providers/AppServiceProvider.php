@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Iluminate\Support\Facades\URL;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 /* use Illuminate\Routing\UrlGenerator; */
 
