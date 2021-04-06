@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://perritos-laravel.herokuapp.com/'),
+    'url' => env('APP_URL', 'https'),
 
     'asset_url' => env('ASSET_URL', null),
 
